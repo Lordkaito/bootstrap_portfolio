@@ -22,7 +22,7 @@
     }
 
     body {
-      background-color: #F4F5F7;
+      background-color: #f4f5f7;
     }
 
     .m-width-70 {
@@ -34,13 +34,14 @@
     }
 
     .work-section {
-      background-color: #F4F5F7;
+      background-color: #f4f5f7;
       margin-top: 5rem;
     }
 
     .work-card {
       background-color: white;
     }
+
   </style>
 </head>
 
@@ -66,7 +67,7 @@
     </div>
   </nav>
   <main class="container-fluid">
-    <section class="headline d-flex align-items-center justify-content-center rounded-bottom">
+    <section class="headline d-flex align-items-center justify-content-center rounded-bottom mb-5">
       <div class="d-flex flex-column align-items-start m-width-70">
         <div class="about-container">
           <h1 class="about fs-1">
@@ -105,188 +106,160 @@
         </ul>
       </div>
     </section>
-    <section class="d-grid align-items-center justify-content-center work-section">
-      <div class="d-flex justify-content-center align-items-center px-5 py-5 work-card rounded-3 shadow-lg">
+    <section class="d-grid align-items-center justify-content-center work-section gap-5">
+      <div class="d-flex justify-content-center align-items-center px-5 py-5 work-card rounded-3 shadow-lg mb-5">
         <div class="image-card">
           <img src="./images/work-4.png" alt="project example" class="image">
         </div>
-        <div class="text-side d-flex flex-xxl-column px-5">
-          <div class="d-flex flex-xxl-column align-items-start justify-content-center">
-            <p class="">Tonic</p>
-            <div class="">
-              <div class="d-flex align-items-center justify-content-center gap-4">
-                <p class="m-xxl-0">CANOPY</p>
-                <div class="d-flex align-items-center justify-content-center">
-                  <img src="./images/Counter.png" alt="">
-                  <p class="m-xxl-0">Back End Dev</p>
-                </div>
-                <div class="d-flex align-items-center justify-content-center">
-                  <img src="./images/Counter.png" alt="">
-                  <p class="m-xxl-0">2015</p>
-                </div>
-              </div>
+        <div class="text-side d-flex flex-column px-5">
+          <p class="">Tonic</p>
+          <div class="d-flex mb-3">
+            <div class="d-flex gap-4 justify-content-between align-items-center">
+              <span class="d-flex">CANOY</span>
+              <img src="./images/Counter.png" alt="">
+              <span>Back End Dev</span>
+              <img src="./images/Counter.png" alt="">
+              <span>2015</span>
             </div>
           </div>
-          <div class="work-description">
-            <p class="description mt-xxl-2">A daily selection of privately personalized reads; no accounts or sign-ups required.
+          <div class="d-flex mb-3">
+            <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
+              required.
             </p>
           </div>
-          <div class="d-flex gap-4">
-            <div class="btn-color d-flex align-items-center justify-content-center rounded-3">
-              <p class="m-xxl-2 text-white">html</p>
-            </div>
-            <div class="btn-color d-flex align-items-center justify-content-center rounded-3">
-              <p class="m-xxl-2 text-white">css</p>
-            </div>
-            <div class="btn-color d-flex align-items-center justify-content-center rounded-3">
-              <p class="m-xxl-2 text-white">javaScript</p>
-            </div>
+          <div class="d-flex">
+            <ul class="list-unstyled d-flex gap-4 mb-3">
+              <li class="text-white btn btn-secondary">html</li>
+              <li class="text-white btn btn-secondary">css</li>
+              <li class="text-white btn btn-secondary">javaScript</li>
+            </ul>
           </div>
           <div class="action">
             <div class="d-flex align-items-center justify-content-start">
-              <a href="#" class="mt-xxl-4 text-decoration-none px-2 py-2 border rounded-3">
+              <a href="#" class="text-decoration-none px-2 py-2 border rounded-3">
                 See Project
               </a>
             </div>
           </div>
         </div>
       </div>
-      <!-- <div class="work-card desk-d-grid d-flex ja-center">
-        <div class="image-card order-2">
-          <img src="./images/work-3.png" alt="project example" class="image">
-        </div>
-        <div class="text-card d-flex">
-          <div class="primary-text">
-            <p class="name">Multi-Post Stories</p>
-            <div class="frame">
-              <div class="frame-div d-flex">
-                <p>CANOPY</p>
-                <div class="frame-img">
-                  <img src="./images/Counter.png" alt="">
-                  <p>Back End Dev</p>
-                </div>
-                <div class="frame-img">
-                  <img src="./images/Counter.png" alt="">
-                  <p>2015</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="work-description">
-            <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups required.
-            </p>
-          </div>
-          <div class="tags d-flex">
-            <div class="tag">
-              <p class="tag-text">html</p>
-            </div>
-            <div class="tag">
-              <p class="tag-text">css</p>
-            </div>
-            <div class="tag">
-              <p class="tag-text">javaScript</p>
-            </div>
-          </div>
-          <div class="action">
-            <div class="d-flex">
-              <a href="#" class="action-btn btn">
-                See Project
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="work-card desk-d-grid d-flex ja-center">
+
+      <div
+        class="d-flex justify-content-center align-items-center px-5 py-5 work-card rounded-3 shadow-lg flex-row-reverse mb-5">
         <div class="image-card">
-          <img src="./images/work-2.png" alt="project example" class="image">
-        </div>
-        <div class="text-card d-flex">
-          <div class="primary-text">
-            <p class="name">Tonic</p>
-            <div class="frame">
-              <div class="frame-div d-flex">
-                <p>CANOPY</p>
-                <div class="frame-img">
-                  <img src="./images/Counter.png" alt="">
-                  <p>Back End Dev</p>
-                </div>
-                <div class="frame-img">
-                  <img src="./images/Counter.png" alt="">
-                  <p>2015</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="work-description">
-            <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups required.
-            </p>
-          </div>
-          <div class="tags d-flex">
-            <div class="tag">
-              <p class="tag-text">html</p>
-            </div>
-            <div class="tag">
-              <p class="tag-text">css</p>
-            </div>
-            <div class="tag">
-              <p class="tag-text">javaScript</p>
-            </div>
-          </div>
-          <div class="action">
-            <div class="d-flex">
-              <a href="#" class="action-btn btn">
-                See Project
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="work-card desk-d-grid d-flex ja-center">
-        <div class="image-card order-2">
           <img src="./images/work-1.png" alt="project example" class="image">
         </div>
-        <div class="text-card d-flex">
-          <div class="primary-text">
-            <p class="name">Multi-Post Stories</p>
-            <div class="frame">
-              <div class="frame-div d-flex">
-                <p>CANOPY</p>
-                <div class="frame-img">
-                  <img src="./images/Counter.png" alt="">
-                  <p>Back End Dev</p>
-                </div>
-                <div class="frame-img">
-                  <img src="./images/Counter.png" alt="">
-                  <p>2015</p>
-                </div>
-              </div>
+        <div class="text-side d-flex flex-column px-5">
+          <p class="">Tonic</p>
+          <div class="d-flex mb-3">
+            <div class="d-flex gap-4 justify-content-between align-items-center">
+              <span class="d-flex">CANOY</span>
+              <img src="./images/Counter.png" alt="">
+              <span>Back End Dev</span>
+              <img src="./images/Counter.png" alt="">
+              <span>2015</span>
             </div>
           </div>
-          <div class="work-description">
+          <div class="d-flex mb-3">
             <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
-              required. </p>
+              required.
+            </p>
           </div>
-          <div class="tags d-flex">
-            <div class="tag">
-              <p class="tag-text">html</p>
-            </div>
-            <div class="tag">
-              <p class="tag-text">css</p>
-            </div>
-            <div class="tag">
-              <p class="tag-text">javaScript</p>
-            </div>
+          <div class="d-flex">
+            <ul class="list-unstyled d-flex gap-4 mb-3">
+              <li class="text-white btn btn-secondary">html</li>
+              <li class="text-white btn btn-secondary">css</li>
+              <li class="text-white btn btn-secondary">javaScript</li>
+            </ul>
           </div>
           <div class="action">
-            <div class="d-flex">
-              <a href="#" class="action-btn btn">
+            <div class="d-flex align-items-center justify-content-start">
+              <a href="#" class="text-decoration-none px-2 py-2 border rounded-3">
                 See Project
               </a>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
+
+      <div class="d-flex justify-content-center align-items-center px-5 py-5 work-card rounded-3 shadow-lg mb-5">
+        <div class="image-card">
+          <img src="./images/work-4.png" alt="project example" class="image">
+        </div>
+        <div class="text-side d-flex flex-column px-5">
+          <p class="">Tonic</p>
+          <div class="d-flex mb-3">
+            <div class="d-flex gap-4 justify-content-between align-items-center">
+              <span class="d-flex">CANOY</span>
+              <img src="./images/Counter.png" alt="">
+              <span>Back End Dev</span>
+              <img src="./images/Counter.png" alt="">
+              <span>2015</span>
+            </div>
+          </div>
+          <div class="d-flex mb-3">
+            <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
+              required.
+            </p>
+          </div>
+          <div class="d-flex">
+            <ul class="list-unstyled d-flex gap-4 mb-3">
+              <li class="text-white btn btn-secondary">html</li>
+              <li class="text-white btn btn-secondary">css</li>
+              <li class="text-white btn btn-secondary">javaScript</li>
+            </ul>
+          </div>
+          <div class="action">
+            <div class="d-flex align-items-center justify-content-start">
+              <a href="#" class="text-decoration-none px-2 py-2 border rounded-3">
+                See Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="d-flex justify-content-center align-items-center px-5 py-5 work-card rounded-3 shadow-lg flex-row-reverse mb-5">
+        <div class="image-card">
+          <img src="./images/work-3.png" alt="project example" class="image">
+        </div>
+        <div class="text-side d-flex flex-column px-5">
+          <p class="">Tonic</p>
+          <div class="d-flex mb-3">
+            <div class="d-flex gap-4 justify-content-between align-items-center">
+              <span class="d-flex">CANOY</span>
+              <img src="./images/Counter.png" alt="">
+              <span>Back End Dev</span>
+              <img src="./images/Counter.png" alt="">
+              <span>2015</span>
+            </div>
+          </div>
+          <div class="d-flex mb-3">
+            <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups
+              required.
+            </p>
+          </div>
+          <div class="d-flex">
+            <ul class="list-unstyled d-flex gap-4 mb-3">
+              <li class="text-white btn btn-secondary">html</li>
+              <li class="text-white btn btn-secondary">css</li>
+              <li class="text-white btn btn-secondary">javaScript</li>
+            </ul>
+          </div>
+          <div class="action">
+            <div class="d-flex align-items-center justify-content-start">
+              <a href="#" class="text-decoration-none px-2 py-2 border rounded-3">
+                See Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </section>
+
   </main>
 </body>
 
